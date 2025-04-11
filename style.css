@@ -8,7 +8,7 @@ body {
   }
   
   header {
-    background: #4c65af;
+    background: #5d76c3;
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -29,7 +29,7 @@ body {
     width: 120px;
     height: 120px;
     object-fit: contain;
-    background-color: #9d0909; /* biar gak kelihatan kosong di pinggir */
+    background-color: #ffffff; /* biar gak kelihatan kosong di pinggir */
   }
   
   ul {
