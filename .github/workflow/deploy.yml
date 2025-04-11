@@ -20,7 +20,7 @@ jobs:
 
       - name: Deploy to ECS
         run: |
-          ssh -o StrictHostKeyChecking=no root@13.54.172.153 << 'EOF'
+          ssh -o StrictHostKeyChecking=no ubuntu@13.54.172.153 << 'EOF'
             cd /var/www/html/CC_Pert5
             git pull origin main
             # Restart Nginx or any other service if needed
